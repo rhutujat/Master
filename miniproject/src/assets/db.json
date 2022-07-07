@@ -1,0 +1,40 @@
+{
+  "employee": [
+    {
+      "id": 2,
+      "ename": "Rhutuja Tale",
+      "email": "rhutujatale16@gmail.com",
+      "mobile": "8983232717",
+      "designation": "Software Developer",
+      "username": "123",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "ename": "shantanu",
+      "email": "sbt@gmail.com",
+      "mobile": "87654567822",
+      "designation": "Backend Developer",
+      "username": "shantu",
+      "password": "shantu"
+    },
+    {
+      "id": 5,
+      "ename": "Gojiri Raut",
+      "email": "goju@yahoo.com",
+      "mobile": "9562379461",
+      "designation": "Student",
+      "username": "goju",
+      "password": "goju123"
+    },
+    {
+      "id": 6,
+      "ename": "a",
+      "email": "aa",
+      "mobile": "23",
+      "designation": "AA",
+      "username": "aa",
+      "password": "AA"
+    }
+  ]
+}

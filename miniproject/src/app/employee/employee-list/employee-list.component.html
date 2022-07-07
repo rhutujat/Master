@@ -1,0 +1,43 @@
+<h2 align="center">Employee Details</h2>
+
+<div class="container">
+  <table class="table table-striped">
+    <tbody>
+
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Mobile No</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Action</th>
+      </tr>
+
+      <tr *ngFor="let s of emp">
+        <td>{{s.id}}</td>
+        <td>{{s.ename}}</td>
+        <td>{{s.email}}</td>
+        <td>{{s.mobile}}</td>
+        <td>{{s.designation}}</td>
+        <td>{{s.username}}</td>
+        <td>{{s.password}}</td>
+        <td>
+          <i class="fa fa-trash" (click)="deletedata(s)" aria-hidden="true"></i> &nbsp;
+          <!-- <i class="fa fa-pencil-square-o" [routerLink] = "['update']" [state] = "s" aria-hidden="true"></i> &nbsp; -->
+          <a class="btn" [routerLink]="['update']" [state]="s">
+            <i class="fa fa-edit"></i>
+        </a>
+          <a [routerLink] ="['employeedetails',s.id]">ShowDetails</a>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>
+  <button style="background-color:cornflowerblue; font-style: calc(); margin-left: 500px;"
+    (click)="goBack()">BACK</button>
+
+</div>
+
+<router-outlet></router-outlet>
