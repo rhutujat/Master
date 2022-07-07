@@ -1,0 +1,22 @@
+{
+  "company": [
+    {
+      "id": 1,
+      "cname": "Amdocs",
+      "caddr": "Hinjewadi",
+      "cemail": "abc@amdocs.com",
+      "cphn": "852014744",
+      "username": "amdocs",
+      "password": "amdocs"
+    },
+    {
+      "id": 2,
+      "cname": "Infosys",
+      "caddr": "Hyderabad",
+      "cemail": "pqr@infosys.co.in",
+      "cphn": "+9874514587",
+      "username": "infy",
+      "password": "infy"
+    }
+  ]
+}
